@@ -288,6 +288,7 @@ const menu = [
     ["Infrared", "infrared"],
     ["GPIO", "gpio"],
     ["iButton", "ibutton"],
+    ["Autor", "Autor"],
     ["Gry", "games"],
     ["Ustawienia", "settings"],
     ["O urzadzeniu", "about"]
@@ -399,6 +400,7 @@ function render() {
         case "infrared":info("Infrared",["Pilot IR: symulacja","Brak nadajnika IR"]);break;
         case "gpio":info("GPIO",["Piny symulowane","Brak podlaczonego sprzetu"]);break;
         case "ibutton":info("iButton",["Symulacja iButton","Brak czytnika"]);break;
+        case "Autor":info("Autor",["Autor: @PanDzbanYT","youtube.com/@PanDzbanYT"]);break;
         case "snake":drawSnake();break;
         case "tetris":drawTetris();break;
         case "pong":drawPong();break;
