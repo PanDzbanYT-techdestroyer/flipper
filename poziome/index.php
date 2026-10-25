@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Flipper Zero — Pixel Simulator</title>
+<title>Flipper Zero — Pixel Simulator by @PanDzbanYT</title>
 <style>
 :root {
     --orange: #ff8a00;
