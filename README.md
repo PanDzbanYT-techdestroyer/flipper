@@ -1,2 +1,1 @@
-# flipper
-Przenośna konsola gamingowa inspirowana Flipperem Zero. Poziomy układ w stylu PSP, pomarańczowo-czarna kolorystyka, pikselowy delfin i klasyczne gry, takie jak Snake, Tetris i Pong. Obsługa klawiaturą i myszą, z możliwością dalszej rozbudowy.
+Przenośna konsola gamingowa inspirowana Flipperem Zero, łącząca retro klimat z klasycznymi grami, takimi jak Snake, Tetris i Pong. Poziomy układ w stylu PSP, pomarańczowo-czarna kolorystyka, fizyczne przyciski i pikselowa maskotka delfina tworzą wyjątkowy projekt, który można obsługiwać za pomocą myszy lub klawiatury. Całość działa w przeglądarce i może być rozwijana o kolejne gry oraz funkcje.
