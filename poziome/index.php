@@ -288,6 +288,7 @@ const menu = [
     ["Infrared", "infrared"],
     ["GPIO", "gpio"],
     ["iButton", "ibutton"],
+    ["18+", "18+"],
     ["Autor", "Autor"],
     ["Gry", "games"],
     ["Ustawienia", "settings"],
@@ -393,13 +394,14 @@ function render() {
         case "menu":drawMenu("Menu",menu,menuIndex);break;
         case "games":drawMenu("Gry",games,menuIndex);break;
         case "settings":drawSettings();break;
-        case "about":info("O urzadzeniu",["Flipper Zero","Symulator w przegladarce","Brak dostepu do sprzetu"]);break;
+        case "about":info("O urzadzeniu",["Flipper Zero","Symulator w przegladarce (gh)","Brak dostepu do sprzetu"]);break;
         case "subghz":info("Sub-GHz",["Tryb demonstracyjny","Brak transmisji radiowej"]);break;
         case "rfid":info("RFID",["Symulacja czytnika","Nie odczytuje prawdziwych kart"]);break;
         case "nfc":info("NFC",["Tryb symulacji","Brak dostepu do NFC"]);break;
         case "infrared":info("Infrared",["Pilot IR: symulacja","Brak nadajnika IR"]);break;
         case "gpio":info("GPIO",["Piny symulowane","Brak podlaczonego sprzetu"]);break;
         case "ibutton":info("iButton",["Symulacja iButton","Brak czytnika"]);break;
+        case "18+":info("18+",["Co ty sobie myslales cwaniaczku","Nieladnie nieladnie"]);break;
         case "Autor":info("Autor",["Autor: @PanDzbanYT","youtube.com/@PanDzbanYT"]);break;
         case "snake":drawSnake();break;
         case "tetris":drawTetris();break;
