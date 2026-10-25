@@ -273,7 +273,9 @@ const menu = [
     ["Infrared", "infrared"],
     ["GPIO", "gpio"],
     ["iButton", "ibutton"],
+    ["Autor", "Autor"],
     ["Gry", "games"],
+    ["18+", "18+"],
     ["Ustawienia", "settings"],
     ["O urzadzeniu", "about"]
 ];
@@ -407,6 +409,12 @@ function render() {
             break;
         case "ibutton":
             drawInfo("iButton",["iButton: symulacja","Brak fizycznego czytnika"]);
+            break;
+        case "Autor":
+            drawInfo("autor",["autor: autorzy" , "@PanDzbanYT, ChatGPT"]);
+            break;
+        case "18+":
+            drawInfo("18+",["18+: A co ty myslales cwaniaczku" , "Nieladnie nieladnie"]);
             break;
         case "snake": drawSnake(); break;
         case "tetris": drawTetris(); break;
